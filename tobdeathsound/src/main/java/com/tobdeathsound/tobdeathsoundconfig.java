@@ -1,9 +1,12 @@
 package com.tobdeathsound;
 
-import net.runelite.client.config.*;
+import net.runelite.client.config.Config;
+import net.runelite.client.config.ConfigGroup;
+import net.runelite.client.config.ConfigItem;
+import net.runelite.client.config.Range;
 
 @ConfigGroup("tobdeathsound")
-public interface tobdeathsoundconfig extends Config
+public interface ToBDeathSoundConfig extends Config
 {
     @ConfigItem(
         keyName = "enabled",
